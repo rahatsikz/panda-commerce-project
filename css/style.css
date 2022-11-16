@@ -1,0 +1,77 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Inter", sans-serif;
+}
+/* nav  */
+.nav-style {
+  font-family: var(--font1);
+  font-weight: 500;
+}
+/* slider */
+.bg-custom {
+  background-color: #feeae9;
+}
+.slider-text h1 {
+  font-family: var(--font1);
+}
+.slider-text p {
+  font-family: var(--font2);
+  color: #4e4e4e;
+}
+.slider-text h3 {
+  font-family: var(--font1);
+  color: #ff136f;
+}
+.btn-custom {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  font-family: var(--font2);
+  color: white;
+}
+
+/* category */
+.category-heading {
+  font-family: var(--font1);
+  font-size: 32px;
+  font-weight: 600;
+}
+.category-item h3 {
+  font-family: var(--font1);
+}
+#cat1 {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+#cat2 {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+#cat3 {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+/* shoe & backpack */
+.btn-dark {
+  font-family: var(--font1);
+}
+.card-body h4 {
+  font-family: var(--font1);
+  font-weight: 600;
+}
+.card-body p {
+  font-family: var(--font2);
+}
+.card-body h5 {
+  font-family: var(--font1);
+}
+
+/* footer */
+.footer-text h2 {
+  font-family: var(--font1);
+  font-weight: 600;
+  font-size: 30px;
+}
+.footer-text p {
+  font-family: var(--font1);
+  font-weight: 500;
+}
